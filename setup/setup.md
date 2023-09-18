@@ -21,7 +21,7 @@
 - Ensure owasp-zap is working. \
     `$ owasp-zap -version` -->
 
-Currently unsure if zap should run in containerized on AWS or locally. \
+Currently unsure if zap should run containerized on AWS or locally. \
 There *is* an official Docker image, but you need to connect to a web-app over localhost *OR* connect over internet and login with credentials which are registered from inside the web-app.
 
 Obviously the problem here is that any connection we make to the AWS instance is not a local one so the credentials can't be set, so for now I'm doing it locally ¯\\_(ツ)_/¯
